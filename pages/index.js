@@ -88,7 +88,6 @@ export default function Home() {
               value={hobbies}
               onChange={(e) => setHobbies(e.target.value)}
               className={styles.input4}
-              required
             />
           </div>
           <input type="submit" value="Suggest the perfect gift" />
