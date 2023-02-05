@@ -44,5 +44,5 @@ export default async function (req, res) {
   }
 }
 function generatePrompt(occasion, gender, age, hobbies) {
-  return `Suggest 3 ideas of gifts for ${occasion} for a ${gender} who is ${age} years old and who has as hobbies ${hobbies}.`;
+  return `People like usual gift suggestions. ideas that are not easy to think at first. Making the ${occasion} a priority, Suggest 3 exciting and creative ideas of gifts for a ${gender} who is ${age} years old and who has as hobbies ${hobbies}. `;
 }
